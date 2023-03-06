@@ -1,0 +1,21 @@
+.topbar {
+  height: 65px;
+  background-color: black;
+}
+
+.left-sidebar {
+  position: absolute;
+  height: 100%;
+  width: 65px;
+  top: 0;
+  z-index: 10;
+  padding-top: 65px;
+  box-shadow: 1px 0 20px rgb(0 0 0 / 8%);
+  background: #1f262d;
+}
+
+.page-wrapper {
+  margin-left: 65px;
+  background-color: #e8e8e8;
+  height: calc(100vh - 65px);
+}
